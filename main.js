@@ -1966,6 +1966,7 @@ function postHtml(...list) {
 
 
 if (currentPage.includes("index.html") || currentPage === "/" || currentPage === "/CAF-QUALIFICATION-WC/") {
+    console.log("HEllo bitch")
     let position = document.querySelector("#news-slider")
     let newsContainer = document.querySelector(".news-container")
     let seeAllBtn = document.querySelectorAll(".see-all-btn")
